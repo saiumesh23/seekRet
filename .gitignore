@@ -1,0 +1,34 @@
+# Node modules (Prevents committing dependencies)
+node_modules/
+  
+# Environment variables (Contains sensitive info like API keys)
+.env
+
+# Logs (Unnecessary runtime logs)
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+  
+# Cache & temp files
+*.cache
+tmp/
+dist/
+  
+# OS-specific files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Build files (For frontend if using React or other frameworks)
+build/
+out/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Dependency lock files (optional)
+package-lock.json
+yarn.lock
